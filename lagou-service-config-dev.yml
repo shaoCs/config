@@ -1,0 +1,25 @@
+#数据库连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+#邮件发送相关配置
+mail:
+  debug: true
+  transport:
+    protocol: smtp
+  smtp:
+    host: smtp.qq.com
+    port: 465
+    auth: true
+    ssl:
+      enable: true
+sender:
+  mail: 804862913@qq.com
+  password: djatgkaiaulpbbbh
+#IP防爆刷指标参数
+ip-hit:
+  check-time: 10 #min
+  max-number: 1000
