@@ -2,7 +2,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://106.14.71.118:3306/my_test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://192.168.99.102:3306/my_test?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: root
 #邮件发送相关配置 
