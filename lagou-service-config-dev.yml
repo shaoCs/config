@@ -22,4 +22,4 @@ sender:
 #IP防爆刷指标参数
 ip-hit:
   check-time: 10 #min
-  max-number: 1000
+  max-number: 100
